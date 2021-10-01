@@ -1,0 +1,21 @@
+# Elastic Search Variables
+elasticsearch_host: localhost
+systemd_src: elastic-timeout.conf
+
+# Kibana Variables
+kibana_host: localhost
+
+# Logstash Variables
+logstash_conf: logstash.conf
+
+# Nagios Variables
+nagios_user: nagiosadmin
+nagios_password: password
+
+# LAMP Variables
+domain: qmntnaval
+owner: qmntnaval
+group: qmntnaval
+index_html: index.html
+ubuntu_src: qmntnaval-ubuntu.conf
+centos_src: qmntnaval-centos.conf
